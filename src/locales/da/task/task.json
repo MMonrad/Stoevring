@@ -1,0 +1,33 @@
+{
+  "task": {
+    "task": "Opgavetype",
+    "move": "Flyt",
+    "cancel": "Aflys",
+    "cancelHeadline": "Aflys opgave",
+    "cancellation": {
+      "reason": "Årsag til aflysning",
+      "citizenNotHome": "Borgeren er ikke hjemme ",
+      "citizenCancelled": "Borgeren aflyste",
+      "otherReason": "Anden Årsag"
+    },
+    "cancelCancellation": "Fortryd aflysning",
+    "complete": "Udfør",
+    "description": "Beskrivelse",
+    "history": "Historik",
+    "profession": "Primær faggruppe",
+    "type": "Opgavetype",
+    "uncomplete": "Fjern udførelse",
+    "types": {
+      "requiresTwoWorkers": "2-personers opgave",
+      "medicationRelated": "Medicinrelateret",
+      "contactPersonRelated": "Kontaktperson med speciale",
+      "healthAct": "Sundhedslov"
+    },
+    "errors": {
+      "updating": "Kunne ikke ændre opgave. Prøv igen. ",
+      "uncomplete": "Kunne ikke fjerne udførelse af opgave. Prøv igen. ",
+      "complete": "Kunne ikke udføre opgave. NPrøv igen. ",
+      "cancel": "Kunne ikke aflyse opgave. Prøv igen. "
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+    "global": {
+        "ok": "Ok",
+        "close": "Luk",
+        "tryAgain": "Prøv igen",
+        "errorDialogTitle": "Fejl",
+        "errorMessages": {
+            "noInternet": "Der er ikke nogen internet forbindelse",
+            "unknown": "Ukendt fejl"
+        }
+    }
+}

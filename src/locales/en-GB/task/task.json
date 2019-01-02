@@ -1,0 +1,33 @@
+{
+  "task": {
+    "task": "Type",
+    "move": "Move",
+    "cancel": "Cancel",
+    "cancelHeadline": "Cancel task",
+    "cancellation": {
+      "reason": "Reason for cancelling",
+      "citizenNotHome": "Resident not home",
+      "citizenCancelled": "Resident cancelled",
+      "otherReason": "Other reasons"
+    },
+    "cancelCancellation": "Revoke",
+    "complete": "Complete",
+    "description": "Description",
+    "history": "History",
+    "profession": "Primary profession",
+    "type": "Type",
+    "uncomplete": "Uncomplete",
+    "types": {
+      "requiresTwoWorkers": "2 persons",
+      "medicationRelated": "Medicine",
+      "contactPersonRelated": "Contact person",
+      "healthAct": "Health act"
+    },
+    "errors": {
+      "updating": " Could not edit the task. Please try again.",
+      "uncomplete": "Could not uncomplete the task. Please try again.",
+      "complete": "Could not complete the task. Please try again.",
+      "cancel": "Could not cancel the task. Please try again."
+    }
+  }
+}
