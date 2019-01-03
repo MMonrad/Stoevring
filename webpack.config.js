@@ -1,8 +1,6 @@
 /* eslint-disable */
 const webpack = require('webpack');
 const path = require('path');
-
-
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = (env = { NODE_ENV: 'development' }) => {
@@ -12,7 +10,6 @@ module.exports = (env = { NODE_ENV: 'development' }) => {
       modules: [ path.join(__dirname, 'node_modules') ],
       alias: {
         src: path.resolve(__dirname, 'src'),
-        // 'react-optimist': path.resolve(__dirname, '../react-optimist/dist/es'), // Test local version of react-optimist
       },
       extensions: ['.js', '.jsx', '.ts', '.tsx']
     },
@@ -29,9 +26,6 @@ module.exports = (env = { NODE_ENV: 'development' }) => {
         publicPath: '/'
     },
     plugins: [
-      new webpack.DefinePlugin({
-        'process.env.SEKOIA_ENV': JSON.stringify(env.SEKOIA_ENV || 'local'),
-      }),
       new HtmlWebpackPlugin({
         template: 'statics/index.html'
       }),

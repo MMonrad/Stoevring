@@ -1,4 +1,5 @@
-import 'babel-polyfill';
+import 'core-js/shim';
+import 'regenerator-runtime/runtime';
 import 'whatwg-fetch';
 
 const regeneratorRuntime = require('babel-runtime/regenerator'); // eslint-disable-line
